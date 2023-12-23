@@ -1,0 +1,10 @@
+name: skillbox
+channels:
+  - conda-forge
+version: 1.0
+dependencies:
+  - python=3.9.5
+  - requests=2.26.0
+  - selenium
+  - python-chromedriver-binary
+  - pytest

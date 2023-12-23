@@ -1,0 +1,9 @@
+{
+    "chrome":{
+        "default":"latest",
+        "versions":{
+            "latest":{
+            }
+        }
+    }
+}
