@@ -1,9 +1,13 @@
 import pytest
 from selenium.webdriver.chrome import webdriver
 
+
 @pytest.fixture
-def driver(request):
-    wd = webdriver
+def set_up_browser(request):
+    driver = webdriver.Chrome()
+    yield driver
+    driver.quit()
+
 
 class test1:
     def test_1(self, set_up_browser):
